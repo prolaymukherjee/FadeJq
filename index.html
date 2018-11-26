@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is javascript fundamantal</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+	<section class="content"
+		<div class="header">
+			<h2>Jquery tutrial fundamantal</h2>
+		</div>
+		
+	<div class="main">
+	
+	    <button id="fadein">FadeIn</button>
+		<button id="fadeout">FadeOut</button>
+		<button id="fadeto">FadeTo</button>
+		<button id="fadetoggle">FadeToggle</button>
+	
+
+		<div class="para">
+			<h3>Prolay Mukherjee</h3>
+			<p >
+			  Learn Jquery fundamantal with  prolay mukherjee.Learn Jquery fundamantal with  prolay mukherjee.
+			  Learn Jquery fundamantal with  prolay mukherjee.Learn Jquery fundamantal with  prolay mukherjee.
+			</p>
+		</div>
+		
+		
+		<script>
+			$(document).ready(function(){
+				$("#fadein").click(function(){
+					$(".para").fadeIn('slow');
+				});
+				
+				
+				$("#fadeout").click(function(){
+					$(".para").fadeOut('slow');
+				});
+				
+				$("#fadeto").click(function(){
+					$(".para").fadeTo(1000,0.4);
+				});
+				
+				$("#fadetoggle").click(function(){
+					$(".para").fadeToggle('slow');
+				});
+				
+				
+				
+				
+			
+			
+			});
+		</script>
+		
+		
+	</div>
+		<div class="footer">
+			<h2>javascript live traing</h2>
+		</div>
+		</section>
+	</body>
+	
+</html>
